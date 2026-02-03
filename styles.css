@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    max-width: 100%;
+}
+
+main{
+    border: 1px solid yellow;
+    height: 100vh;
+    
+}
+
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+} */
+
+.info-section{
+    border: 1px solid black ;
+    background-image: url("images/pattern-bg-desktop.png");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid blue ;
+    height: 40vh;
+    position: relative;
+}
+
+.info-div{
+    background-color: white;
+    width: 50em;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    position: relative;
+    bottom: -70px;
+    z-index: 10;
+}
+
+/* .info-div div{
+    display: flex;
+    justify-content: center;
+
+} */
+
+/* .search-div{
+    border: 1px solid black;
+    height: 30px;
+    width: auto; 
+} */
+
+input{
+    border-radius: 10px 0 0 10px;
+    width: 400px ;
+    height: 30px;
+    padding: 10px;
+    border: 0;
+}
+
+button{
+    background-color: black;
+    margin-left: -5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+}
+
+#map { 
+    height: 100%;
+}
+
+.map-section{
+    height: 60vh;
+    position: relative;
+}
