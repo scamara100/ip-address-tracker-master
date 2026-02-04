@@ -8,10 +8,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | IP Address Tracker</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -30,15 +28,21 @@
           <button><img src="images/icon-arrow.svg" alt="image of arrow button for search"></button>
         </div>
         <div class="info-div">
+
           <div>IP Address</div>
+          <span></span>
           <hr>
           <div>Location</div>
+          <span></span>
           <hr>
           <div>Timezone</div>
+          <span></span>
           <hr>
           <div>UTC</div><!-- add offset value dynamically using the API -->
+          <span></span>
           <hr>
           <div>ISP</div>
+          <span></span>
         </div>
       </section>
       <figure class="map-section">
@@ -47,7 +51,7 @@
     </section>
 
   </main>
-  <script src="script.js"></script>
+  <script src="script.js" type="module"></script>
 </body>
 
 </html>

@@ -116,8 +116,7 @@ button {
         height: 80%;
         gap: 10px;
         position: absolute;
-        bottom: -150px;
-        
+        bottom: -200px;
     }
     .input{
         border-radius: 10px 0 0 10px;
