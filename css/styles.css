@@ -22,7 +22,7 @@ main {
 
 .info-section {
     
-    background-image: url("images/pattern-bg-desktop.png");
+    background-image: url("../assets/images/pattern-bg-desktop.png");
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +106,7 @@ button {
 
 @media (max-width: 768px) {
     .info-section{
-        background-image: url("images/pattern-bg-mobile.png");
+        background-image: url("../assets/images/pattern-bg-mobile.png");
     }
     .info-div{
         display: flex;
@@ -135,3 +135,15 @@ button {
     height: 100vh;
     }
 }
+
+/* style.css
+
+Main styles
+
+layout
+
+colors
+
+typography
+
+components */

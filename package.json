@@ -4,6 +4,7 @@
   "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
   "main": "script.js",
   "dependencies": {
+    "jslint": "^0.12.1",
     "leaflet": "^1.9.4"
   },
   "scripts": {
