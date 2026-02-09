@@ -19,3 +19,26 @@ export function initMap(lat = 0, lng = 0) {
 
     marker.bindPopup("<b>My Location</b>").openPopup();
 }
+
+export function updateMarker(lat, lng) {
+    marker.setLatLng([lat, lng])
+
+
+    // move map to center
+    map.panTo([lat, lng]);
+
+    //display the city name
+    marker.bindPopup(cityName).openPopup()
+}
+
+// initMap()
+// updateMarker(lat, lng)
+
+
+// Handles:
+
+// create map
+
+// set marker
+
+// move map
