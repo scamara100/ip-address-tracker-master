@@ -78,6 +78,7 @@ Open `js/main.js` to follow app flow: it wires the form, calls `fetchIPData()`, 
 ## Deployment
 
 I deploy the static site to GitHub Pages. If deploying publicly, remove or rotate any real API key used in the repository and configure the key securely.
+The live demo: https://scamara100.github.io/ip-address-tracker-master/
 
 ## Tips & troubleshooting
 

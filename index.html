@@ -22,40 +22,40 @@
     <section class="container">
       <section class="info-section">
         <h1>IP Address Tracker</h1>
-        <div class="search-div">
-          <input type="search" id="input" name="q" aria-label="search for any IP address or domain"
+        <div class="search-div" role="search">
+          <input type="search" id="input" name="q" aria-label="Search for any IP address or domain"
             placeholder="Search for any IP address or domain">
-          <button id="button"><img src="./assets/images/icon-arrow.svg" alt="image of arrow button for search"></button>
-          <p id="error-message" class="error"></p>
+          <button id="button" aria-label="Search" title="Search (Enter key also works)"><img src="./assets/images/icon-arrow.svg" alt=""></button>
+          <p id="error-message" class="error" role="alert" aria-live="assertive"></p>
         </div>
         <!-- Info cards -->
-        <section class="info-cards">
+        <section class="info-cards" role="region" aria-label="IP address information" aria-live="polite">
 
           <div class="card">
-            <p class="label">IP ADDRESS</p>
-            <p id="ip" class="value">—</p>
+            <p class="label"><abbr title="Internet Protocol">IP</abbr> ADDRESS</p>
+            <p id="ip" class="value" aria-label="IP Address value">—</p>
           </div>
-          <hr>
+          <hr aria-hidden="true">
           <div class="card">
             <p class="label">LOCATION</p>
-            <p id="location" class="value">—</p>
+            <p id="location" class="value" aria-label="Location value">—</p>
           </div>
-          <hr>
+          <hr aria-hidden="true">
           <div class="card">
             <p class="label">TIMEZONE</p>
-            <p id="timezone" class="value">—</p>
+            <p id="timezone" class="value" aria-label="Timezone value">—</p>
           </div>
-          <hr>
+          <hr aria-hidden="true">
           <div class="card">
-            <p class="label">ISP</p>
-            <p id="isp" class="value">—</p>
+            <p class="label"><abbr title="Internet Service Provider">ISP</abbr></p>
+            <p id="isp" class="value" aria-label="ISP value">—</p>
           </div>
 
         </section>
       </section>
-      <figure class="map-section">
-        <div id="map"></div>
-      </figure>
+      <section class="map-section" role="region" aria-label="Interactive map showing IP address location">
+        <div id="map" role="application" aria-label="Leaflet map displaying location"></div>
+      </section>
     </section>
 
   </main>

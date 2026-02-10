@@ -28,10 +28,8 @@ window.addEventListener("DOMContentLoaded", async () => {
 });
 
 
-// 🔍 Search handler
-input.addEventListener("click", async (e) => {
-    e.preventDefault();
-
+// 🔍 Search function
+async function performSearch() {
     const value = input.value.trim();
 
     clearError();
