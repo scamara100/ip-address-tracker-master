@@ -6,7 +6,7 @@ const ispEl = document.getElementById("isp");
 const errorEl = document.getElementById("error-message");
 
 
-//Update info cards
+// Update info cards
 export function displayIPInfo(data) {
   if (!data) return;
 
