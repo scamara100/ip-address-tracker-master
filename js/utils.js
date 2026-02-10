@@ -1,3 +1,0 @@
-// validateIP()
-// validateDomain()
-// formatTime()

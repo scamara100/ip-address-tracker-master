@@ -30,15 +30,3 @@ export function updateMarker(lat, lng) {
     //display the city name
     marker.bindPopup(cityName).openPopup()
 }
-
-// initMap()
-// updateMarker(lat, lng)
-
-
-// Handles:
-
-// create map
-
-// set marker
-
-// move map

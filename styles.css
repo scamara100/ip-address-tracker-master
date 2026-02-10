@@ -22,7 +22,7 @@ main {
 
 .info-section {
     
-    background-image: url("../assets/images/pattern-bg-desktop.png");
+    background-image: url("./assets/images/pattern-bg-desktop.png");
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@ main {
     position: relative;
 }
 
-.info-div {
+.info-cards {
     background-color: white;
     width: 90%;
     max-width: 50em;
@@ -53,18 +53,6 @@ main {
     z-index: 1000;
     font-size: 13px;
 }
-
-/* .info-div div{
-    display: flex;
-    justify-content: center;
-
-} */
-
-/* .search-div{
-    border: 1px solid black;
-    height: 30px;
-    width: auto; 
-} */
 
 input {
     border-radius: 10px 0 0 10px;
@@ -106,9 +94,9 @@ button {
 
 @media (max-width: 768px) {
     .info-section{
-        background-image: url("../assets/images/pattern-bg-mobile.png");
+        background-image: url("./assets/images/pattern-bg-mobile.png");
     }
-    .info-div{
+    .info-cards{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -135,15 +123,3 @@ button {
     height: 100vh;
     }
 }
-
-/* style.css
-
-Main styles
-
-layout
-
-colors
-
-typography
-
-components */

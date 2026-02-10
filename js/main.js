@@ -1,8 +1,10 @@
-// import { fetchIPData } from "./api.js";
-import { initMap } from "./map.js";
-// import { displayIPInfo } from "./ui.js";
+import { fetchIPData } from "./api.js";
+import { initMap, updateMarker } from "./map.js";
+import { displayIPInfo } from "./ui.js";
 
-initMap(40.7128, -74.0060);
+
+
+initMap();
 
 
 // initApp();

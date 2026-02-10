@@ -7,7 +7,7 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | IP Address Tracker</title>
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,27 +23,35 @@
       <section class="info-section">
         <h1>IP Address Tracker</h1>
         <div class="search-div">
-          <input type="search" name="q" aria-label="search for any IP address or domain"
+          <input type="search" id="input" name="q" aria-label="search for any IP address or domain"
             placeholder="Search for any IP address or domain">
-          <button><img src="./assets/images/icon-arrow.svg" alt="image of arrow button for search"></button>
+          <button id="button"><img src="./assets/images/icon-arrow.svg" alt="image of arrow button for search"></button>
+          <p id="error-message" class="error"></p>
         </div>
-        <div class="info-div">
+        <!-- Info cards -->
+        <section class="info-cards">
 
-          <div>IP Address</div>
-          <span></span>
+          <div class="card">
+            <p class="label">IP ADDRESS</p>
+            <p id="ip" class="value">—</p>
+          </div>
           <hr>
-          <div>Location</div>
-          <span></span>
+          <div class="card">
+            <p class="label">LOCATION</p>
+            <p id="location" class="value">—</p>
+          </div>
           <hr>
-          <div>Timezone</div>
-          <span></span>
+          <div class="card">
+            <p class="label">TIMEZONE</p>
+            <p id="timezone" class="value">—</p>
+          </div>
           <hr>
-          <div>UTC</div><!-- add offset value dynamically using the API -->
-          <span></span>
-          <hr>
-          <div>ISP</div>
-          <span></span>
-        </div>
+          <div class="card">
+            <p class="label">ISP</p>
+            <p id="isp" class="value">—</p>
+          </div>
+
+        </section>
       </section>
       <figure class="map-section">
         <div id="map"></div>
