@@ -2,7 +2,7 @@
 import { fetchIPData, getUserIP } from "./api.js";
 import { initMap, updateMarker } from "./map.js";
 import { displayIPInfo, showError, clearError } from "./ui.js";
-// import { validateIP, validateDomain } from "./utils.js";
+import { validateIP, validateDomain } from "./utils.js";
 
 
 // DOM
@@ -53,4 +53,4 @@ async function performSearch() {
         showError("Could not fetch IP data");
         console.error(err);
     }
-});
+}
